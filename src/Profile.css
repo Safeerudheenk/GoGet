@@ -1,0 +1,16 @@
+.loading__status {
+    color: blue;
+}
+
+.error__status {
+    color: red;
+}
+
+.success__status {
+    color: green;
+}
+
+.shopping__text {
+    text-align: center;
+    text-decoration: none;
+}

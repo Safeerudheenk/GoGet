@@ -1,0 +1,25 @@
+.form {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.form > div {
+    display: flex;
+    flex-direction: column;
+    margin:1rem;
+
+}
+
+form >label {
+    margin: 1rem 0;
+}
+
+.form > button {
+    background-color: gold;
+}
+
+.form  input {
+    padding: 0.5rem;
+    border-radius: 3px;
+    border-color:  #a88734 #9c7e31 #846a29;
+}

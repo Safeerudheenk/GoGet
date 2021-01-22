@@ -1,0 +1,17 @@
+.checkoutSteps {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.checkoutSteps > div {
+    border-top:0.3rem;
+    color: #c0c0c0;
+    flex: 1;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.checkoutSteps > div.active {
+    border-top-color:#131921 ;
+    color: #131921;
+}

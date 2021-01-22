@@ -1,0 +1,29 @@
+.home {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.home__image {
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0,0));
+    margin-bottom: -100px;
+}
+
+.home__row {
+    display: flex;
+    flex-flow: inherit;
+    z-index: 1;
+    margin-left: o.4rem;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .home__row {
+        display: flex;
+        flex-direction: column;
+        max-width: 80%;
+    }
+  }
